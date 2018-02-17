@@ -64,12 +64,12 @@ Insert messages to specific locations with latitude and longitude
 
 + Request (application/json)
 
-{
-    "loanAmount": "5",
-    "nominalRate": "0",
-    "duration": 24,
-    "startDate": "2018-01-01T00:00:01Z"
-}
+    {
+        "loanAmount": "5",
+        "nominalRate": "0",
+        "duration": 24,
+        "startDate": "2018-01-01T00:00:01Z"
+    }
         
 + Response 200 (application/json)
 
