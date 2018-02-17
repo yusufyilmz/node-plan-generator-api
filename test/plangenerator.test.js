@@ -146,6 +146,7 @@ describe('/POST generate plan', () => {
                 duration: 10,
                 startDate: "2018-01-01T00:00:01Z"
             })
+            
             .end((err, res) => {
                 res.should.have.status(404);
                 res.body.should.have.property('status').eql(404);

@@ -1,5 +1,3 @@
-## Geocaching service
-
 A node.js express  api project.
 
 #   Getting Started
@@ -60,7 +58,7 @@ To prepare a deployment of project, run that command at project directory:
 
 #   API
 
-## Insert secret message  [POST] [/api/geolocation/insertmessage]
+## Insert secret message  [POST] [/generate-plan]
 
 Insert messages to specific locations with latitude and longitude
 
